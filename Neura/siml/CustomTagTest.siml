@@ -1,0 +1,24 @@
+﻿<Siml>
+  <Concept Name="CustomTagTest" Type="Public">
+    <Model>
+      <Pattern>CUSTOM TAG FORTUNE</Pattern>
+      <Response>
+        <fortunecookie />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CUSTOM TAG PIG LATIN *</Pattern>
+      <Response>
+        <piglatin>
+          <Match />
+        </piglatin>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CUSTOM TAG NEWS</Pattern>
+      <Response>
+        <news />
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

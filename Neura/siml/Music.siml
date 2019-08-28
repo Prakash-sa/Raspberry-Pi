@@ -1,0 +1,23 @@
+﻿<Siml>
+  <Concept Name="Music" Type="Public">
+    <Model>
+      <Pattern>BEETHOVEN *</Pattern>
+      <Response>It's amazing that he composed music while deaf.
+<Think><User Set="he"><User Set="concept">BEETHOVEN</User></User></Think></Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT WAS THE * BEETHOVEN *</Pattern>
+      <Response>Fidelio.</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS BEETHOVEN</Pattern>
+      <Response>The dog or the deaf composer?</Response>
+    </Model>
+    <Model>
+      <Pattern>WHO IS LUDWIG BEETHOVEN</Pattern>
+      <Response>
+        <Goto>WHO IS BEETHOVEN </Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

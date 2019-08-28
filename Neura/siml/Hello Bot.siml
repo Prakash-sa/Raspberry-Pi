@@ -1,0 +1,23 @@
+﻿<Siml>
+  <Concept Name="Introduction">
+    
+    <Model>
+      <Pattern>HELLO NEURA</Pattern>
+      <Random>
+        <Item>Hello Sir</Item>
+        <Item>What's up</Item>
+        <Item>Hi Sir</Item>
+      </Random>
+    </Model>
+    <Model>
+      <Pattern>What is your name</Pattern>
+      <Random>
+        <Item>my name is Neura</Item>
+        <Item>I am Neura</Item>
+        <Item>Neura</Item>
+      </Random>
+    </Model>
+    
+    
+  </Concept>
+</Siml>

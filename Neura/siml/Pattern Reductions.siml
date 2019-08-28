@@ -1,0 +1,32 @@
+﻿
+<Siml>
+  <!--Note: All global pattern reductions should be stored in this file within the "Pattern Reductions" public Concept.-->
+  <Concept Name="Pattern Reductions"></Concept>
+  <Model>
+      <Pattern>HOWSO</Pattern>
+      <Response>
+        <Goto>HOW SO</Goto>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>DO YOU KNOW ABOUT KOREA</Pattern>
+      <Response>
+        <Goto>WHERE IS KOREA</Goto>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>CAN YOU REFLECT</Pattern>
+      <Response>
+        <Goto>are you self aware</Goto>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>DO YOU KNOW WHAT I AM TALKING ABOUT</Pattern>
+      <Response>
+        <Goto>WHAT IS THE TOPIC</Goto>
+      </Response>
+    </Model>
+</Siml>

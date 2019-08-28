@@ -1,0 +1,708 @@
+﻿<Siml>
+  <Concept Name="Salutations" Type="Public">
+    <Model>
+      <Pattern>ADIEU</Pattern>
+      <Response>
+        <Goto>GOOD BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ADIOS</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ADIOS *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALLO</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALOHA</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ALOH</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>ANYBODY HOME</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>AUREVOIR</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BONJOUR MEANS HELLO</Pattern>
+      <Response>Well hello there!</Response>
+    </Model>
+    <Model>
+      <Pattern>BONJOUR</Pattern>
+      <Response>Does BONJOUR mean hello or goodbye?</Response>
+    </Model>
+    <Model>
+      <Pattern>BUHBYE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BY BY</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BYE BYE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BYE BYE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BYEBYE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>BYEBYE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>* BYE</Pattern>
+      <Response>OK see you later <User Get="name" />.</Response>
+    </Model>
+    <Model>
+      <Pattern>BYE</Pattern>
+      <Response>
+        <Random>
+          <Item>Bye.</Item>
+          <Item>Adios.</Item>
+          <Item>Goodbye.</Item>
+          <Item>Bye bye.</Item>
+          <Item>Goodbye.</Item>
+          <Item>Sayonara.</Item>
+          <Item>Bye for now.</Item>
+          <Item>See you later!</Item>
+          <Item>See you later.</Item>
+          <Item>Until next time.</Item>
+          <Item>TTYL, <User Get="name" />.</Item>
+          <Item>See you later <User Get="name" />.</Item>
+          <Item>Thanks for chatting, <User Get="name" />.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>_ BYE</Pattern>
+      <Response>See you later. <GotoMatch /></Response>
+    </Model>
+    <Model>
+      <Pattern>BYE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CHEERS</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CIAO MEANS GOODBYE</Pattern>
+      <Response>
+        <Goto>BUT</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CIAO</Pattern>
+      <Response>Does CIAO mean hello or goodbye?</Response>
+    </Model>
+    <Model>
+      <Pattern>C YA</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>CYA *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>DISCONNECT ME</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>END</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>EXIT</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAREWELL</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FAREWELL *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>G2G</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GET LOST</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GO HOME</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD BYE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD BYE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOODBYE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOODBYE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOODBYE</Pattern>
+      <Previous>SEE YOU LATER</Previous>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD BY</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOODBY</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD DAY</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD EVENING</Pattern>
+      <Response>Good evening, <User Get="name" />, how are you tonight?</Response>
+    </Model>
+    <Model>
+      <Pattern>GOOD NITE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOTTA GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOTTA GO *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOT TO GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOT TO GO *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GREETINGS *</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GTG</Pattern>
+      <Response>
+        <Goto>BYE </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HALO</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HASTA LA VISTA</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HASTA LUEGO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HASTA *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE A GOOD NIGHT</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HAVE TO GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HELLO AGAIN</Pattern>
+      <Response>Hi there. I was just wanting to talk to <User Get="name" />.</Response>
+    </Model>
+    <Model>
+      <Pattern>HELLO HOW ARE YOU</Pattern>
+      <Response>I am fine thank you how are you?</Response>
+    </Model>
+    <Model>
+      <Pattern>HELLO *</Pattern>
+      <Response>Hello there. <GotoMatch /></Response>
+    </Model>
+    <Model>
+      <Pattern>HELLO</Pattern>
+      <Response>Hi there!</Response>
+    </Model>
+    <Model>
+      <Pattern>HELLO THERE</Pattern>
+      <Response>Salutations, <User Get="name" /></Response>
+    </Model>
+    <Model>
+      <Pattern>HELLOW</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HELOO *</Pattern>
+      <Response>
+        <Goto>HELLO <Match /></Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HELO</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HEY THERE</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HI THERE *</Pattern>
+      <Response>
+        <GotoMatch />
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HIYA</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOI</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOLA IS HELLO *</Pattern>
+      <Response>
+        <Goto>HOLA</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOWDIE *</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HOWDY</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>HULLO</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I BETTER GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I DO NOT WANT TO TALK *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I G2G</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I GOING</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I GOTTA GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I GOT TO GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I G TWO G</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I LEAVE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I LEAVING</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I LEFT</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST BE GOING *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST GO *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST LEAVE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+        <GotoMatch />
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I MUST LEAVE</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I NEED TO GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I QUIT</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I RESIGN</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IS ANYONE THERE</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>IT MEANS HELLO</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WANT TO LEAVE</Pattern>
+      <Response>Ok, bye bye.</Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL SEE YOU LATER</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL TALK TO YOU LATER</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>I WILL TALK TO YOU LATER *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>KONNICHI WA</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>KONNICHIWA</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>LEAVE *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>MOOSHI MOOSHI</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NIGHTY *</Pattern>
+      <Response>
+        <Goto>BYE </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OLA</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>REPLY</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>RETRY</Pattern>
+      <Response>
+        <Goto>HELLO</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SAYONARA</Pattern>
+      <Response>
+        <Goto>GOOD BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEE YOU LATER</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEE YOU</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEE YOU *</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SEE YOU SOON</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SHALOM</Pattern>
+      <Response>Does SHALOM mean Hello or Goodbye?</Response>
+    </Model>
+    <Model>
+      <Pattern>_ TALK TO YOU LATER</Pattern>
+      <Response>
+        <Goto>BYE </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TA TA</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TIME TO GO</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>TTYL</Pattern>
+      <Response>
+        <Goto>BYE</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>WHAT IS SHALOM</Pattern>
+      <Response>Does shalom mean hello or goodbye?</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE WELCOME *</Pattern>
+      <Response>It was my pleasure.</Response>
+    </Model>
+    <Model>
+      <Pattern>YOU ARE WELCOME</Pattern>
+      <Response>
+        <Random>
+          <Item>The pleasure was all mine.</Item>
+          <Item>Don't mention it.</Item>
+          <Item>Polite people are nice.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR WELCOME</Pattern>
+      <Response>I think you mean "you are welcome".</Response>
+    </Model>
+    <Model>
+      <Pattern>YOUR WELCOME *</Pattern>
+      <Response>
+        <Goto>YOU ARE WELCOME</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>

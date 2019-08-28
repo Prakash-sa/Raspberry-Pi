@@ -1,0 +1,15 @@
+<aiml version="1.0">
+
+<!-- This category works with the Standard AIML Set -->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+
+<!-- Load standard AIML set -->
+<learn>standard/std-*.aiml</learn>
+<learn>alice/*.aiml</learn>
+<learn>siml/*.siml</learn>
+</template>
+</category>
+
+</aiml>

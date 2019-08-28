@@ -1,0 +1,132 @@
+﻿<Siml>
+  <Concept Name="Interjection" Type="Public">
+    <Model>
+      <Pattern>BLIMEY</Pattern>
+      <Response>
+        <Goto>INTERJECTION </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>FURTHERMORE</Pattern>
+      <Response>
+        <Goto>INTERJECTION </Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OF COURSE</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OH</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>OK</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>SO</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>UM</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>YES</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>NO</Pattern>
+      <Response>
+        <Random>
+          <Item>No problem.</Item>
+          <Item>Oh alright.</Item>
+          <Item>OK then... no problem</Item>
+          <Item>Are you sure?</Item>
+          <Item>Well, you can always change your mind later.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>INTERJECTION</Pattern>
+      <Response>
+        <Random>
+          <Item>OK.</Item>
+          <Item>Ah.</Item>
+          <Item>Er.</Item>
+          <Item>So?</Item>
+          <Item>Uh.</Item>
+          <Item>Aw.</Item>
+          <Item>Oh.</Item>
+          <Item>Aha.</Item>
+          <Item>Hey.</Item>
+          <Item>Gee.</Item>
+          <Item>Hmm.</Item>
+          <Item>Mmm.</Item>
+          <Item>Yay.</Item>
+          <Item>Ugh.</Item>
+          <Item>Woe!</Item>
+          <Item>Wow!</Item>
+          <Item>And?</Item>
+          <Item>Dude!</Item>
+          <Item>Gosh!</Item>
+          <Item>Ahem.</Item>
+          <Item>Whoa.</Item>
+          <Item>Ayuh.</Item>
+          <Item>Dude!</Item>
+          <Item>Yikes!</Item>
+          <Item>Great.</Item>
+          <Item>I see.</Item>
+          <Item>Really.</Item>
+          <Item>Blimey.</Item>
+          <Item>Yippee!</Item>
+          <Item>Groovy.</Item>
+          <Item>Hurrah!</Item>
+          <Item>Awesome.</Item>
+          <Item>Come on.</Item>
+          <Item>Far out.</Item>
+          <Item>Right on.</Item>
+          <Item>Excuse me!</Item>
+          <Item>Pardon me?</Item>
+          <Item>I hear you.</Item>
+          <Item>That's cool.</Item>
+          <Item>Alright then.</Item>
+          <Item>Take it easy.</Item>
+          <Item>I understand.</Item>
+          <Item>Tell me more.</Item>
+          <Item>It's all good.</Item>
+          <Item>Next question?</Item>
+          <Item>That's alright.</Item>
+          <Item>Give me a break.</Item>
+          <Item>Are you kidding?</Item>
+          <Item>Yeah that's right.</Item>
+          <Item>That's interesting.</Item>
+          <Item>How can I help you?</Item>
+          <Item>"<Output />"? <Input />?</Item>
+          <Item>I don't judge people.</Item>
+          <Item>It goes without saying.</Item>
+          <Item>I hate one word answers.</Item>
+        </Random>
+      </Response>
+    </Model>
+    <Model>
+      <Pattern>GOD DAMN *</Pattern>
+      <Response>
+        <Goto>INTERJECTION</Goto>
+      </Response>
+    </Model>
+  </Concept>
+</Siml>
